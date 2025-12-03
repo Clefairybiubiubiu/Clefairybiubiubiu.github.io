@@ -8,14 +8,8 @@ body {
 
 header {
   background-color: #007acc;
-  color: white;
   text-align: center;
   padding: 50px 20px;
-}
-
-/* 关键修正：header 内的 h1 单独设置成白色 */
-header h1 {
-  color: white;
 }
 
 main {
@@ -24,7 +18,7 @@ main {
   margin: auto;
 }
 
-/* 页面中其他 h1/h2 保持蓝色 */
+/* 全局 h1/h2 默认蓝色 */
 h1, h2 {
   color: #007acc;
 }
@@ -37,3 +31,6 @@ footer {
   margin-top: 40px;
 }
 
+header h1 {
+  color: white !important;
+}
