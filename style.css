@@ -13,12 +13,18 @@ header {
   padding: 50px 20px;
 }
 
+/* 关键修正：header 内的 h1 单独设置成白色 */
+header h1 {
+  color: white;
+}
+
 main {
   padding: 20px;
   max-width: 800px;
   margin: auto;
 }
 
+/* 页面中其他 h1/h2 保持蓝色 */
 h1, h2 {
   color: #007acc;
 }
@@ -30,3 +36,4 @@ footer {
   padding: 20px;
   margin-top: 40px;
 }
+
