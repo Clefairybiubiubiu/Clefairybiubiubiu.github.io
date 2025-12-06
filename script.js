@@ -2,10 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   console.log("Welcome to Junfei's site!");
   
   // HR Assistant Link Configuration
-  // 🔧 TO UPDATE: After deploying to Streamlit Cloud, replace "#" below with your Streamlit app URL
-  // Example: "https://hr-assistant.streamlit.app"
-  // Get your URL from: https://share.streamlit.io after deployment
-  const HR_ASSISTANT_URL = "#"; // ⬅️ UPDATE THIS with your Streamlit Cloud URL
+  const HR_ASSISTANT_URL = "https://ai-powered-hr-assistant-dih82a2fq5hwkgjmm5ku6y.streamlit.app";
   
   const hrAssistantLink = document.getElementById("hr-assistant-link");
   const hrAssistantStatus = document.getElementById("hr-assistant-status");
