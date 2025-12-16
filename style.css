@@ -34,3 +34,12 @@ footer {
 header h1 {
   color: white !important;
 }
+
+a {
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #005a9e;
+  text-decoration: underline;
+}
