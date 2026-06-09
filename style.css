@@ -155,17 +155,17 @@ h1 em, h2 em { font-family: var(--serif); font-weight: 500; }
   transform: rotate(2deg);
 }
 .portrait-mark {
-  display: grid;
-  place-items: center;
   aspect-ratio: 1;
   margin-bottom: 2rem;
-  background:
-    radial-gradient(circle at 50% 45%, var(--coral) 0 19%, transparent 20%),
-    radial-gradient(circle at 50% 75%, var(--coral) 0 28%, transparent 29%),
-    var(--paper-deep);
-  color: transparent;
-  font-family: var(--serif);
-  font-size: 4rem;
+  overflow: hidden;
+  background: var(--paper-deep);
+}
+.portrait-mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 22%;
 }
 .card-label {
   margin-bottom: .45rem;
